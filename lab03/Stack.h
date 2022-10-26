@@ -10,7 +10,7 @@
 class Stack {
 private:
     List list;
-private:
+public:
     void push(int e);
     int pop();
     bool isEmpty() const;

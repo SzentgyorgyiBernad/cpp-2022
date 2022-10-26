@@ -1,5 +1,6 @@
 #include <iostream>
 #include "List.h"
+#include "Stack.h"
 
 int main() {
     std::cout << "Hello, Lab_03" << std::endl;
@@ -35,5 +36,13 @@ int main() {
     lista1.remove(8, List::DeleteFlag::LESS);
     lista1.print();
 
+
+    Stack stack1;
+    for (int i = 0; i < 10; ++i) {
+        stack1.push(i);
+    }
+    for (int i = 0; i < 10; ++i) {
+        printf("%d",stack1.)
+    }
     return 0;
 }

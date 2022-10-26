@@ -5,6 +5,8 @@
 #include <valarray>
 #include <fstream>
 #include "Point.h"
+#include "../lab04/Point.h"
+
 #include <cmath>
 #include <cstdlib>
 
@@ -30,6 +32,8 @@ void Point::print() const
 {
     cout<<"( "<<getX()<<","<<getY()<<")"<<endl;
 }
+
+
 
 double distance(const Point& a, const Point& b)
 {
