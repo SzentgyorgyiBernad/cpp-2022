@@ -1,6 +1,11 @@
 #include <iostream>
+#include "Szemely.h"
+#include "Alkalmazott.h"
+
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, Lab_09" << std::endl;
+    cout << "Hello, Lab_09" << endl;
     return 0;
 }
